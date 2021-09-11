@@ -76,6 +76,7 @@ Medium: 11px
 html {
     font-size: 62.5%; /* 1 rem will equal 10px instead of the default 16px*/
     /* 10px / 16px = 0.625 = 62.5% and is percentage of users browser font-size setting */
+    overflow-x: hidden;
 }
 
 body {
@@ -83,6 +84,7 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
 }
 
 /*********************************/
