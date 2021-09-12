@@ -63,6 +63,10 @@ Medium: 11px
 - SPACING SYSTEM (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
+Testing & optimization
+https://caniuse.com/
+https://squoosh.app/
+
 */
 
 
@@ -77,6 +81,9 @@ html {
     font-size: 62.5%; /* 1 rem will equal 10px instead of the default 16px*/
     /* 10px / 16px = 0.625 = 62.5% and is percentage of users browser font-size setting */
     overflow-x: hidden;
+
+    /* Does not work on Safari */
+    /* scroll-behavior: smooth; */
 }
 
 body {
@@ -85,6 +92,7 @@ body {
     font-weight: 400;
     color: #555;
     overflow-x: hidden;
+    
 }
 
 /*********************************/
